@@ -1,6 +1,7 @@
 const Product = require("./model");
 const path = require("path");
 const fs = require("fs");
+const { Op } = require("sequelize");
 
 // GET index
 const index = async (req, res) => {
