@@ -2,12 +2,12 @@
   "name": "expressjs-course",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "engines": {
     "node": "16.14.2"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
