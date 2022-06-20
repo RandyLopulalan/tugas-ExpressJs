@@ -15,7 +15,7 @@ const index = async (req, res) => {
     });
   }
   try {
-    res.send(result);
+    res.json(result);
   } catch (err) {
     res.send(err.message);
   }
